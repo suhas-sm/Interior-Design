@@ -1,0 +1,182 @@
+body{
+    background-image: url(./images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+@media only screen and (max-width:768px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-list ul{
+        flex-direction: column;
+        
+    }
+    .nav-list ul li{
+        margin-top: 10px;
+    }
+    .call{
+        flex-direction: column;
+    }
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    font-weight: bold;
+}
+
+
+
+
+.nav-list ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list ul li{
+    margin-right:30px ;
+}
+.nav-list ul li:hover{
+    margin-right:30px ;
+    cursor: pointer;
+}
+
+.call{
+    display: flex;
+}
+.call img{
+    
+    margin-right: 10px;
+    color: #fff;
+    
+    border-radius: 10px;
+}
+.call-text{
+    margin-top: -10px;
+   
+}
+.call-text h4:not(:first-child){
+    margin-top: -20px;
+   
+}
+.line{
+    
+    width: auto;
+    border-top: 3px solid #fff;
+    margin-right: 40px;
+    margin-left: 35%;
+    margin-top: -20px;
+}
+.content{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.content-top{
+    width: auto;
+    height: 300px;
+    
+}
+
+.content-top h1{
+    font-size: 80px;
+    float: left;
+}
+.content-top-right{
+    float: right;
+}
+
+.pop-up-top{
+    
+    margin-top: 60px;
+    margin-right: 80px;
+    background-color: #304657;
+    padding: 20px;
+    position: relative;
+}
+.line-top{
+    width: 20px;
+    height: 60px;
+    margin-left: 50%;
+    bottom: 0;
+    position: relative;
+    border-left: 2px solid #fff;
+
+}
+.circle-top{
+    padding: 2px;
+    width: 15px;
+    height: 15px;
+    margin-left: 47%;
+    background-color: #fff;
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 50px;
+
+}
+
+.content-bottom{
+    position: relative;
+    
+}
+
+.content-bottom button{
+    float: left;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 20px 40px 20px 40px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bolder;
+    
+}
+
+.content-bottom button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+.content-bottom-right{
+    float: right;
+    display: flex;
+    
+}
+
+.pop-up-bottom{
+   
+    
+    background-color: #304657;
+    width: 400px;
+    padding: 20px;
+   
+   
+    
+    
+}
+.line-bottom{
+    width: 30%;
+    margin-top: 15%;
+    
+   
+    bottom: 0;
+    
+    border-top: 2px solid #fff;
+
+}
+.circle-bottom{
+    padding: 2px;
+    width: 20px;
+    height: 15px;
+    margin-top: 12.6%;
+    /* margin-left: 47%; */
+    background-color: #fff;
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 50%;
+
+}
