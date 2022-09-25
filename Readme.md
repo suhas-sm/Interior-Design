@@ -1,4 +1,4 @@
-# Interior Design Website [![Template Project](https://img.shields.io/badge/Technologies%20-HTML%2FCSS-brightgreen)]
+# Interior Design Website
 
 This is basically a one pager website Template project made in HTML/CSS for an imaginary home designer on the internet.
 Hope you like my project !! it works good in laptop screen if you are using desktop please zoom in or out that might work .
